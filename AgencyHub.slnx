@@ -1,0 +1,36 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/AgencyHub.Infrastructure/AgencyHub.Infrastructure.csproj" />
+    <Project Path="src/BuildingBlocks/AgencyHub.SharedKernel/AgencyHub.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/src/Hosts/">
+    <Project Path="src/Hosts/AgencyHub.Api/AgencyHub.Api.csproj" />
+    <Project Path="src/Hosts/AgencyHub.Worker/AgencyHub.Worker.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Agency/">
+    <Project Path="src/Modules/Agency/AgencyHub.Modules.Agency/AgencyHub.Modules.Agency.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Client/">
+    <Project Path="src/Modules/Client/AgencyHub.Modules.Client.Contracts/AgencyHub.Modules.Client.Contracts.csproj" />
+    <Project Path="src/Modules/Client/AgencyHub.Modules.Client/AgencyHub.Modules.Client.csproj" />
+    <Project Path="src/Modules/Project/AgencyHub.Modules.Project.Contracts/AgencyHub.Modules.Project.Contracts.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Identity/">
+    <Project Path="src/Modules/Identity/AgencyHub.Modules.Identity.Contracts/AgencyHub.Modules.Identity.Contracts.csproj" />
+    <Project Path="src/Modules/Identity/AgencyHub.Modules.Identity/AgencyHub.Modules.Identity.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Project/">
+    <Project Path="src/Modules/Project/AgencyHub.Modules.Project/AgencyHub.Modules.Project.csproj" />
+    <Project Path="src/Modules/Website/AgencyHub.Modules.Website.Contracts/AgencyHub.Modules.Website.Contracts.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Website/">
+    <Project Path="src/Modules/Website/AgencyHub.Modules.Website/AgencyHub.Modules.Website.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AgencyHub.Api.IntegrationTests/AgencyHub.Api.IntegrationTests.csproj" />
+    <Project Path="tests/AgencyHub.ArchitectureTests/AgencyHub.ArchitectureTests.csproj" />
+    <Project Path="tests/AgencyHub.UnitTests/AgencyHub.UnitTests.csproj" />
+  </Folder>
+</Solution>

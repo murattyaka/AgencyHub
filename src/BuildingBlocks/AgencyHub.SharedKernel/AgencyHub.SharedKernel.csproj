@@ -1,0 +1,3 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- SharedKernel must stay dependency-free: no EF Core, no ASP.NET Core. Enforced by ArchitectureTests. -->
+</Project>

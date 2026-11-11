@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Public surface of the Identity module. Other modules may reference ONLY this project, never AgencyHub.Modules.Identity. -->
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\AgencyHub.SharedKernel\AgencyHub.SharedKernel.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AgencyHub.Modules.Project.Contracts\AgencyHub.Modules.Project.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\AgencyHub.Infrastructure\AgencyHub.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Identity\AgencyHub.Modules.Identity.Contracts\AgencyHub.Modules.Identity.Contracts.csproj" />
+    <ProjectReference Include="..\..\Client\AgencyHub.Modules.Client.Contracts\AgencyHub.Modules.Client.Contracts.csproj" />
+    <ProjectReference Include="..\..\Website\AgencyHub.Modules.Website.Contracts\AgencyHub.Modules.Website.Contracts.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="all" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="AgencyHub.Api.IntegrationTests" />
+  </ItemGroup>
+</Project>

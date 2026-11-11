@@ -1,0 +1,3 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Public surface of the Website module. Other modules reference ONLY this project. -->
+</Project>

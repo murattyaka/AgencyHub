@@ -1,0 +1,3 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Public surface of the Client module. Other modules reference ONLY this project. -->
+</Project>
